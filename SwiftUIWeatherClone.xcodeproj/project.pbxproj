@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 60;
+  objects = {
+
+/* Begin PBXProject section */
+    1D1E00000000000000000001 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastSwiftUpdateCheck = 1500;
+        LastUpgradeCheck = 1500;
+        TargetAttributes = {
+          1D1E00000000000000000002 = {
+            DevelopmentTeam = "";
+            ProvisioningStyle = Automatic;
+          };
+        };
+      };
+      buildConfigurationList = 1D1E00000000000000000003 /* Build configuration list for PBXProject "SwiftUIWeatherClone" */;
+      compatibilityVersion = "Xcode 15.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+        Base,
+      );
+      mainGroup = 1D1E00000000000000000004;
+      productRefGroup = 1D1E00000000000000000005 /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        1D1E00000000000000000002 /* SwiftUIWeatherClone */,
+      );
+    };
+/* End PBXProject section */
+
+/* Begin PBXGroup section */
+    1D1E00000000000000000004 = {
+      isa = PBXGroup;
+      children = (
+        1D1E00000000000000000006 /* SwiftUIWeatherClone */,
+        1D1E00000000000000000005 /* Products */,
+      );
+      sourceTree = "<group>";
+    };
+
+    1D1E00000000000000000005 /* Products */ = {
+      isa = PBXGroup;
+      children = (
+        1D1E00000000000000000007 /* SwiftUIWeatherClone.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+
+    1D1E00000000000000000006 /* SwiftUIWeatherClone */ = {
+      isa = PBXGroup;
+      path = SwiftUIWeatherClone;
+      sourceTree = "<group>";
+      children = (
+        1D1E00000000000000000008 /* App */,
+        1D1E00000000000000000009 /* Core */,
+        1D1E0000000000000000000A /* Features */,
+        1D1E0000000000000000000B /* Resources */,
+      );
+    };
+
+    1D1E00000000000000000008 /* App */ = {
+      isa = PBXGroup;
+      path = App;
+      sourceTree = "<group>";
+      children = (
+        1D1E0000000000000000000C /* SwiftUIWeatherCloneApp.swift */,
+      );
+    };
+
+    1D1E00000000000000000009 /* Core */ = {
+      isa = PBXGroup;
+      path = Core;
+      sourceTree = "<group>";
+      children = (
+        1D1E0000000000000000000D /* AppFeature.swift */,
+        1D1E0000000000000000000E /* AppView.swift */,
+      );
+    };
+
+    1D1E0000000000000000000A /* Features */ = {
+      isa = PBXGroup;
+      path = Features;
+      sourceTree = "<group>";
+      children = (
+        1D1E0000000000000000000F /* Weather */,
+      );
+    };
+
+    1D1E0000000000000000000F /* Weather */ = {
+      isa = PBXGroup;
+      path = Weather;
+      sourceTree = "<group>";
+      children = (
+        1D1E00000000000000000010 /* Models */,
+        1D1E00000000000000000011 /* Store */,
+        1D1E00000000000000000012 /* Views */,
+      );
+    };
+
+    1D1E00000000000000000010 /* Models */ = {
+      isa = PBXGroup;
+      path = Models;
+      sourceTree = "<group>";
+      children = (
+        1D1E00000000000000000013 /* WeatherModels.swift */,
+      );
+    };
+
+    1D1E00000000000000000011 /* Store */ = {
+      isa = PBXGroup;
+      path = Store;
+      sourceTree = "<group>";
+      children = (
+        1D1E00000000000000000014 /* WeatherFeature.swift */,
+      );
+    };
+
+    1D1E00000000000000000012 /* Views */ = {
+      isa = PBXGroup;
+      path = Views;
+      sourceTree = "<group>";
+      children = (
+        1D1E00000000000000000015 /* WeatherView.swift */,
+      );
+    };
+
+    1D1E0000000000000000000B /* Resources */ = {
+      isa = PBXGroup;
+      path = Resources;
+      sourceTree = "<group>";
+      children = (
+        1D1E00000000000000000016 /* Info.plist */,
+        1D1E00000000000000000017 /* Assets.xcassets */,
+      );
+    };
+/* End PBXGroup section */
+
+/* Begin PBXFileReference section */
+    1D1E00000000000000000007 /* SwiftUIWeatherClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWeatherClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    1D1E0000000000000000000C /* SwiftUIWeatherCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWeatherCloneApp.swift; sourceTree = "<group>"; };
+    1D1E0000000000000000000D /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+    1D1E0000000000000000000E /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+    1D1E00000000000000000013 /* WeatherModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModels.swift; sourceTree = "<group>"; };
+    1D1E00000000000000000014 /* WeatherFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFeature.swift; sourceTree = "<group>"; };
+    1D1E00000000000000000015 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+    1D1E00000000000000000016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    1D1E00000000000000000017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXBuildFile section */
+    1D1E00000000000000000018 /* SwiftUIWeatherCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E0000000000000000000C; };
+    1D1E00000000000000000019 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E0000000000000000000D; };
+    1D1E0000000000000000001A /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E0000000000000000000E; };
+    1D1E0000000000000000001B /* WeatherModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E00000000000000000013; };
+    1D1E0000000000000000001C /* WeatherFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E00000000000000000014; };
+    1D1E0000000000000000001D /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E00000000000000000015; };
+/* End PBXBuildFile section */
+
+/* Begin PBXNativeTarget section */
+    1D1E00000000000000000002 /* SwiftUIWeatherClone */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1D1E0000000000000000001E /* Build configuration list for PBXNativeTarget "SwiftUIWeatherClone" */;
+      buildPhases = (
+        1D1E0000000000000000001F /* Sources */,
+        1D1E00000000000000000020 /* Frameworks */,
+        1D1E00000000000000000021 /* Resources */,
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = SwiftUIWeatherClone;
+      productName = SwiftUIWeatherClone;
+      productReference = 1D1E00000000000000000007 /* SwiftUIWeatherClone.app */;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
+/* Begin PBXSourcesBuildPhase section */
+    1D1E0000000000000000001F /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      files = (
+        1D1E00000000000000000018 /* SwiftUIWeatherCloneApp.swift in Sources */,
+        1D1E00000000000000000019 /* AppFeature.swift in Sources */,
+        1D1E0000000000000000001A /* AppView.swift in Sources */,
+        1D1E0000000000000000001B /* WeatherModels.swift in Sources */,
+        1D1E0000000000000000001C /* WeatherFeature.swift in Sources */,
+        1D1E0000000000000000001D /* WeatherView.swift in Sources */,
+      );
+    };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+    1D1E00000000000000000020 /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      files = (
+      );
+    };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+    1D1E00000000000000000021 /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      files = (
+      );
+    };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+    1D1E00000000000000000022 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ENABLE_MODULES = YES;
+        CURRENT_PROJECT_VERSION = 1;
+        GENERATE_INFOPLIST_FILE = YES;
+        INFOPLIST_FILE = SwiftUIWeatherClone/Resources/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+        LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+        MARKETING_VERSION = 1.0;
+        PRODUCT_BUNDLE_IDENTIFIER = com.example.swiftuiweatherclone;
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SDKROOT = iphoneos;
+        SWIFT_EMIT_LOC_STRINGS = YES;
+        SWIFT_VERSION = 5.9;
+        TARGETED_DEVICE_FAMILY = "1,2";
+      };
+      name = Debug;
+    };
+    1D1E00000000000000000023 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ENABLE_MODULES = YES;
+        CURRENT_PROJECT_VERSION = 1;
+        GENERATE_INFOPLIST_FILE = YES;
+        INFOPLIST_FILE = SwiftUIWeatherClone/Resources/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+        LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+        MARKETING_VERSION = 1.0;
+        PRODUCT_BUNDLE_IDENTIFIER = com.example.swiftuiweatherclone;
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SDKROOT = iphoneos;
+        SWIFT_EMIT_LOC_STRINGS = YES;
+        SWIFT_VERSION = 5.9;
+        TARGETED_DEVICE_FAMILY = "1,2";
+      };
+      name = Release;
+    };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+    1D1E00000000000000000003 /* Build configuration list for PBXProject "SwiftUIWeatherClone" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1D1E00000000000000000022 /* Debug */,
+        1D1E00000000000000000023 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    1D1E0000000000000000001E /* Build configuration list for PBXNativeTarget "SwiftUIWeatherClone" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1D1E00000000000000000022 /* Debug */,
+        1D1E00000000000000000023 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+/* End XCConfigurationList section */
+  };
+  rootObject = 1D1E00000000000000000001 /* Project object */;
+}

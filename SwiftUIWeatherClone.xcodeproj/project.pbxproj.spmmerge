@@ -1,0 +1,54 @@
+// merge SPM into project: add package ref and link product to target
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 60;
+  objects = {
+/* Begin PBXFrameworksBuildPhase section */
+    1D1E00000000000000000020 /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      files = (
+        2D2E00000000000000000003 /* ComposableArchitecture in Frameworks */,
+      );
+    };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXBuildFile section */
+    2D2E00000000000000000003 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 2D2E00000000000000000002 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXNativeTarget section */
+    1D1E00000000000000000002 /* SwiftUIWeatherClone */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1D1E0000000000000000001E /* Build configuration list for PBXNativeTarget "SwiftUIWeatherClone" */;
+      buildPhases = (
+        1D1E0000000000000000001F /* Sources */,
+        1D1E00000000000000000020 /* Frameworks */,
+        1D1E00000000000000000021 /* Resources */,
+      );
+      dependencies = (
+      );
+      name = SwiftUIWeatherClone;
+      packageProductDependencies = (
+        2D2E00000000000000000002 /* ComposableArchitecture */,
+      );
+      productName = SwiftUIWeatherClone;
+      productReference = 1D1E00000000000000000007 /* SwiftUIWeatherClone.app */;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section additions */
+    1D1E00000000000000000001 /* Project object */ = {
+      attributes = {
+      };
+      packageReferences = (
+        2D2E00000000000000000001 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+      );
+    };
+/* End PBXProject section additions */
+
+  };
+  rootObject = 1D1E00000000000000000001 /* Project object */;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>object</key>
+	<dict>
+		<key>pins</key>
+		<array>
+			<dict>
+				<key>package</key>
+				<string>swift-composable-architecture</string>
+				<key>repositoryURL</key>
+				<string>https://github.com/pointfreeco/swift-composable-architecture</string>
+				<key>state</key>
+				<dict>
+					<key>branch</key>
+					<string></string>
+					<key>revision</key>
+					<string></string>
+					<key>version</key>
+					<string>1.13.0</string>
+				</dict>
+			</dict>
+		</array>
+		<key>version</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>
